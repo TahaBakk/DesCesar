@@ -13,9 +13,7 @@ public class Main {
         System.out.println(descifrado(texto, codigo));
     }
 
-
-
-
+    
     //descifrar el texto
     public static String descifrado(String texto, int codigo) {
         //Utilizo el string builder para concatenar las letras en una frase con el "append" para no usar el += (y asi aprendo a usar cosas nuevas)
